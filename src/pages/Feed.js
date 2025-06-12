@@ -21,12 +21,12 @@ const Feed = () => {
 
   useEffect(() => {
     const fetchPosts = async () => {
-      const response = await axios.get(`https://jobpost-d98f.onrender.com/posts/${query}`);
+      const response = await axios.get(`https://jobpost-rkus.onrender.com/posts/${query}`);
       setPost(response.data);
     };
 
     const fetchInitialPosts = async () => {
-      const response = await axios.get(`https://jobpost-d98f.onrender.com/allPosts`);
+      const response = await axios.get(`https://jobpost-rkus.onrender.com/allPosts`);
       setPost(response.data);
     };
 
