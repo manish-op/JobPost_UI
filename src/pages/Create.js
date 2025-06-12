@@ -25,7 +25,7 @@ const Create = () => {
       return;
     }
 
-    fetch("http://localhost:8080/post", {
+    fetch("https://jobpost-d98f.onrender.com/post", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
